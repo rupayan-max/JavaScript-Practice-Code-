@@ -20,10 +20,19 @@ function check() {
 
 check();
 // I can not use this b variable except inside of function 
-console.log(b);
+// console.log(b);
 
 
 
 
 // Var is function scoped , Global Scoped
 // Var is not BlOCK Scoped 
+
+
+//REDEFINE AND RE DECLEAR CONCEPTS 
+var p=90;
+var p=900;
+console.log(p); //  Output is 900 
+
+// Var keyword generate debugging issues . In this var we can 
+// REDECLEAR AND REDEFINE
